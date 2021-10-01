@@ -14,4 +14,6 @@
 Сайт адаптирован для 3 видов девайсов - desktop, tablet, mobile! Все изображения были оптимизированы
 перед использованием. Изображения адптированы под ретина-дисплеи.
 
-[ссылка на оригинальный проект]: https://github.com/Oleksandr2891/project-for-team1
+[ссылка на оригинальный проект]: (https://github.com/Oleksandr2891/project-for-team1)
+
+[https://github.com/Oleksandr2891/project-for-team1]: (ссылка на оригинальный проект)
