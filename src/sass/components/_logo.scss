@@ -1,0 +1,19 @@
+.logo {
+  display: block;
+  fill: var(--color-main);
+}
+
+.logo__icon--nav {
+  width: 96px;
+  height: 44px;
+
+  @media screen and (min-width: 1280px) {
+    width: 158px;
+    height: 70px;
+  }
+}
+
+.logo__icon--menu {
+  width: 190px;
+  height: 85px;
+}

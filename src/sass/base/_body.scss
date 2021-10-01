@@ -1,0 +1,103 @@
+body {
+  background-color: var(--color-white);
+  color: var(--color-text);
+  font-family: var(--main-font);
+}
+.body--bg {
+  background-image: url('../images/header-mobile/png/pic-donuts.png'),
+    url('../images/bg-mobile/bg-top.svg'), url('../images/contact-mobile/png/flour.png'),
+    url('../images/bg-mobile/bg-bottom.svg');
+  background-image: url('../images/header-mobile/webp/pic-donuts.webp'),
+    url('../images/bg-mobile/bg-top.svg'), url('../images/contact-mobile/webp/flour.webp'),
+    url('../images/bg-mobile/bg-bottom.svg');
+  background-position: 0% 0%, 50% 0%, 100% 100%, 50% 88%;
+  background-size: 116px 112px, 100% auto, 87px 64px, 100% auto;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 400px) {
+  .body--bg {
+    background-position: 0% 0%, 50% 0%, 100% 100%, 50% 90%;
+  }
+}
+
+@media (min-device-pixel-ratio: 2) and (min-width: 400px),
+  (min-resolution: 192dpi) and (min-width: 400px),
+  (min-resolution: 2dppx) and (min-width: 400px) {
+  .body--bg {
+    background-image: url('../images/header-mobile/png/pic-donuts@2x.png'),
+      url('../images/bg-mobile/bg-top.svg'), url('../images/contact-mobile/png/flour@2x.png'),
+      url('../images/bg-mobile/bg-bottom.svg');
+    background-image: url('../images/header-mobile/webp/pic-donuts@2x.webp'),
+      url('../images/bg-mobile/bg-top.svg'), url('../images/contact-mobile/webp/flour@2x.webp'),
+      url('../images/bg-mobile/bg-bottom.svg');
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .body--bg {
+    background-position: 0% 0%, 50% -15%, 100% 100%, 50% 130%;
+    background-size: 230px 220px, 100% auto, 148px 115px, 100% auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .body--bg {
+    background-image: url('../images/header-tablet/png/pic-donuts.png'),
+      url('../images/bg-tablet/bg-top.svg'), url('../images/contact-tablet/png/flour.png'),
+      url('../images/bg-tablet/bg-bottom.svg');
+    background-image: url('../images/header-tablet/webp/pic-donuts.webp'),
+      url('../images/bg-tablet/bg-top.svg'), url('../images/contact-tablet/webp/flour.webp'),
+      url('../images/bg-tablet/bg-bottom.svg');
+    background-position: 65% 0%, 50% -2%, 100% 100%, 50% 95%;
+    background-size: 376px 360px, 100% auto, 148px 140px, 100% auto;
+  }
+}
+
+@media (min-device-pixel-ratio: 2) and (min-width: 768px),
+  (min-resolution: 192dpi) and (min-width: 768px),
+  (min-resolution: 2dppx) and (min-width: 768px) {
+  .body--bg {
+    background-image: url('../images/header-tablet/png/pic-donuts@2x.png'),
+      url('../images/bg-tablet/bg-top.svg'), url('../images/contact-tablet/png/flour@2x.png'),
+      url('../images/bg-tablet/bg-bottom.svg');
+    background-image: url('../images/header-tablet/webp/pic-donuts@2x.webp'),
+      url('../images/bg-tablet/bg-top.svg'), url('../images/contact-tablet/webp/flour@2x.webp'),
+      url('../images/bg-tablet/bg-bottom.svg');
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .body--bg {
+    background-position: 65% 0%, 50% 0%, 100% 100%, 50% 90%;
+    background-size: 376px 360px, 100% auto, 148px 140px, 100% auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .body--bg {
+    background-image: url('../images/header-desktop/png/spoon.png'),
+      url('../images/header-desktop/png/pic-donuts.png'), url('../images/bg-desktop/bg-top.svg'),
+      url('../images/contact-desktop/png/flour.png'), url('../images/bg-desktop/bg-bottom.svg');
+    background-image: url('../images/header-desktop/webp/spoon.webp'),
+      url('../images/header-desktop/webp/pic-donuts.webp'), url('../images/bg-desktop/bg-top.svg'),
+      url('../images/contact-desktop/webp/flour.webp'), url('../images/bg-desktop/bg-bottom.svg');
+
+    background-position: 0% 165px, 100% 0%, 50% 0%, 100% 100%, 50% 100%;
+    background-size: 122px 368px, 710px auto, 100% auto, 320px 190px, 100% auto;
+  }
+}
+
+@media (min-device-pixel-ratio: 2) and (min-width: 1280px),
+  (min-resolution: 192dpi) and (min-width: 1280px),
+  (min-resolution: 2dppx) and (min-width: 1280px) {
+  .body--bg {
+    background-image: url('../images/header-desktop/png/spoon@2x.png'),
+      url('../images/header-desktop/png/pic-donuts@2x.png'), url('../images/bg-desktop/bg-top.svg'),
+      url('../images/contact-desktop/png/flour@2x.png'), url('../images/bg-desktop/bg-bottom.svg');
+    background-image: url('../images/header-desktop/webp/spoon@2x.webp'),
+      url('../images/header-desktop/webp/pic-donuts@2x.webp'),
+      url('../images/bg-desktop/bg-top.svg'), url('../images/contact-desktop/webp/flour@2x.webp'),
+      url('../images/bg-desktop/bg-bottom.svg');
+  }
+}

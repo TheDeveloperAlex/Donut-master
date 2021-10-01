@@ -1,0 +1,41 @@
+.social-icon__twitter {
+  width: 19px;
+  height: 15px;
+  fill: var(--color-main);
+  &:hover {
+    fill: var(--color-accent-brown);
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 24px;
+    height: 19px;
+  }
+}
+
+.social-icon__instagram {
+  width: 15px;
+  height: 15px;
+  fill: var(--color-main);
+  &:hover {
+    fill: var(--color-accent-brown);
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 24px;
+    height: 19px;
+  }
+}
+
+.social-icon__facebook {
+  width: 8px;
+  height: 15px;
+  fill: var(--color-main);
+  &:hover {
+    fill: var(--color-accent-brown);
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 24px;
+    height: 19px;
+  }
+}

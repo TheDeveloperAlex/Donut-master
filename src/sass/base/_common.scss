@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+// для  всех  h2 на сайте
+.title {
+  @media screen and (max-width: 1279px) {
+    font-size: 24px;
+    line-height: 2.7;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 36px;
+    line-height: 1.8;
+  }
+  font-family: Caveat Brush;
+}
+
+.btn-read-more {
+  font-family: Caveat Brush;
+  font-size: 18px;
+  line-height: 1.2;
+  padding-top: 19px;
+  padding-bottom: 21px;
+  color: #ab816c;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    color: #876655;
+  }
+  &:active {
+    color: #674d40;
+  }
+}
+
+.text.is-hidden {
+  display: none;
+  @media screen and (min-width: 1280px) {
+    display: block;
+  }
+}
+
+.text {
+  @media screen and (max-width: 1279px) {
+    padding-top: 10px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 21px;
+  }
+}
+
+.text {
+  animation-name: animation-read-more;
+  animation-duration: 700ms;
+  animation-timing-function: linear;
+  animation-iteration-count: inifinite;
+  animation-direction: alternate;
+}
+
+@keyframes animation-read-more {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0, 5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

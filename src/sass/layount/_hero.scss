@@ -1,0 +1,66 @@
+.hero-flex__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    align-items: flex-start;
+    padding-bottom: 80px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-bottom: 56px;
+  }
+}
+.hero-title {
+  font-family: var(--title-font);
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 1.26;
+  text-align: center;
+  &__position {
+    margin-bottom: 4px;
+
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 15px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 64px;
+    line-height: 1.01;
+  }
+}
+.hero-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  &__position {
+    margin-bottom: 38px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 26px;
+  }
+}
+.button-position {
+  margin-bottom: 50px;
+  text-decoration: none;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 65px;
+  }
+}
+.hero-social__list {
+  display: flex;
+}
+
+.hero-social__item:not(:last-child) {
+  margin-right: 10px;
+}
